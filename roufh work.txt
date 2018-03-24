@@ -1,0 +1,31 @@
+input[type=text].hpe {
+
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+ border: 2px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: ease-in-out, width .35s ease-in-out;
+background-color:Green;
+}
+
+input[type=text]:focus {
+
+    width: 250px;
+}
+
+table, th {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+ border: 2px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: ease-in-out, width .35s ease-in-out;
+background-color:Pink;
+}
+
+
+
+}

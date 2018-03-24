@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up/Login Form</title>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="css/asnew.css">
+<style>
+      a.your{
+  color: #2da1c1;
+  font-size: 25px;
+  text-decoration: none;
+  left: 252px;
+  float: left;
+
+}
+a.your:hover
+{
+color: #f90;
+text-decoration: underline;
+left: 252px;
+float: left;                 
+}
+          a.mine{
+  color: #2da1c1;
+  font-size: 25px;
+  text-decoration: none;
+  left: 252px;
+  float: right;
+
+}
+a.mine:hover
+{
+color: #f90;
+text-decoration: underline;
+left: 252px;
+float: right;                 
+}
+
+      </style>
+      <script>
+  function preventBack(){window.history.forward();}
+  setTimeout("preventBack()", 0);
+  window.onunload=function(){null};
+</script>
+ 
+</head>
+
+<body>
+  <div class="form">
+      
+       <ul class="tab-group">
+              <a class="mine" href="login.html">Go to Login</a>
+              <a class="your" href="index.html">Go to Home</a>
+          </ul>
+      
+      <ul class="tab-group">
+              </ul>
+      
+    
+        <div id="signup">   
+          <h1>Change Your Password Here!</h1>
+          
+          <form action="forgotuser" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email" name="em" required autocomplete="off"/>
+          </div>
+          
+        
+		   <div class="field-wrap">
+              			  <select name="seq">
+                <option value="Select any Question">Select any Question</option>
+                <option value="PET Name">What is your pet name?</option>
+                <option value="BOOK NAME">What is your favourite book name?</option>
+                <option value="FLOWER Name">What is your favourite flower name?</option>
+                <option value="TEACHER NAME">What is your favourite teacher name?</option>
+				<option value="BEST FRIEND NAME">What is your best friend name?</option>
+            </select>
+            </div>
+			 <div class="field-wrap">
+              <label>
+                Security Answer<span class="req">*</span>
+              </label>
+              <input type="text" name="ans" required autocomplete="off" />
+            </div>
+          
+          <button type="submit" name="reg" class="button button-block"/>Change Password</button>
+          
+          </form>
+
+        </div>
+        
+     </div> <!-- /form -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

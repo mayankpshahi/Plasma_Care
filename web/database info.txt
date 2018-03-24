@@ -1,0 +1,15 @@
+register table;-fname,lname,mobile,address,state,pincode,email(pk),pass,seq,sans
+create database plasma_care;
+use plasma_care;   
+select email from request where inbox is null;
+create table register(fname varchar(20) NOT NULL,lname varchar(20) NOT NULL,mobile varchar(20) NOT NULL,address varchar(20) NOT NULL, state varchar(20) NOT NULL,pincode varchar(20) NOT NULL,email varchar(20),pass varchar(20) NOT NULL,seq varchar(20) NOT NULL,sans varchar(20) NOT NULL, PRIMARY KEY(email));
+INSERT INTO register VALUES('SARWAR','ALAM','7525827455','GORAKHPUR','UP','273010','sam@gmail.com','sam','PET NAME','TOMMY');
+create table admin(email varchar(30), password varchar(30) NOT NULL, PRIMARY KEY(email));
+INSERT INTO admin VALUES('admin@gmail.com','admin');
+ parameter name -- fn,ln,mob,address,st,pin,em,pass,seq,ans,reg(button)
+insert into request(inbox) values('yes') select inbox from request where email='mps@';
+update request set inbox='yes' from request where email='mps@';
+create table guest(name varchar(30),mobile varchar(20),bgroup varchar(20),reason varchar(20),PRIMARY KEY(mobile));
+insert into guest values('Moogly','9936326284','O+','Need Blood');
+
+create table request(email varchar(30) NOT NULL, bgroup varchar(20) NOT NULL,reason varchar(20) NOT NULL, inbox varchar(40) , PRIMARY KEY(email));
