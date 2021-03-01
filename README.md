@@ -1,8 +1,6 @@
-# Plasma_Care
-A Blood Bank Management System named as Plasma Care.
-This is project on blood bank management system website. Here I have used Java servlets,HTML,Css.
-
 # PLASMA __CARE(an e-blood bank)
+A Blood Bank Management System named as Plasma Care.
+
 # Purpose-
 To easily fulfill the requirement of blood requirement during emergency and
 make the task less tiring.
