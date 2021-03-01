@@ -62,7 +62,7 @@ The home page is index.html page where one can get all the information and
 page layout, Navigation bar contains various sections like Home.About Us,
 Services and Contact Us sections.
 
-They all are linked to different each other using the <a href > tags
+They all are linked to different each other using the anchor tags
 Services section contains User register where a new user can register,User
 login where a registered user can see his/her inbox and the requested query.
 There is also a tab for those who do not want to register but still they can
